@@ -76,6 +76,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -197,7 +198,6 @@
   align-items: center;
   min-height: 790px;
   background-position: bottom 0 left 0;
-  z-index: -2;
   background-repeat: no-repeat;
   background-size: 867px 637px;
   flex-direction: column;
