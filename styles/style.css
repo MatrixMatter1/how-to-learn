@@ -1,17 +1,7 @@
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-}
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -24,7 +14,6 @@
   background-color: #f2f2f2;
   position: relative;
 
-  /* выше установили ограничения для секции */
 }
 
 .title {
@@ -36,7 +25,6 @@
   font-weight: bold;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   width: 568px;
@@ -47,7 +35,6 @@
   right: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   color: white;
   margin-right: 0;
@@ -61,7 +48,7 @@
 }
 
 .logo__place_header {
-  background-image: url("..images/logo_place_header.svg");
+  background-image: url("../images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -74,7 +61,6 @@
   align-self: center;
   font-size: 102px;
   font-weight: 700;
-  height: fit-content;
   line-height: 96px;
   margin-left: 64px;
   width: 730px;
@@ -86,7 +72,6 @@
   left: 64px;
   font-size: 18px;
   line-height: 25px;
-  height: fit-content;
   width: 388px;
 }
 
@@ -186,9 +171,11 @@
 }
 
 .table__heading {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  line-height: 1.15;
 }
 
 .table__text {
@@ -289,14 +276,6 @@
 .section-title_theme_dark,
 .section-subtitle_theme_dark {
   color:white;
-}
-
-.table__heading {
-  margin: 0;
-  padding: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .footer {
