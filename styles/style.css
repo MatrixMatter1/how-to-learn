@@ -46,6 +46,7 @@
   line-height: 96px;
   margin: 0px;
   max-width: 730px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -56,6 +57,7 @@
   line-height: 25px;
   max-width: 388px;
   margin: 0;
+  z-index: 2;
 }
 
 .header__link {
