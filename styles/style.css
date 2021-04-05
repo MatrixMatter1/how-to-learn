@@ -62,7 +62,7 @@
   font-weight: 700;
   line-height: 96px;
   margin-left: 64px;
-  width: 730px;
+  max-width: 730px;
   z-index: 2;
 }
 
@@ -254,6 +254,7 @@
   flex-direction: column;
   padding: 90px 0;
   position: relative;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -264,6 +265,7 @@
   background-size: 877px 877px;
   right: -210px;
   top: 0;
+  z-index: 0;
 }
 
 .table__cell_theme_dark {
