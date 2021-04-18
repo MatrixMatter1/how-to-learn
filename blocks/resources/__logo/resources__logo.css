@@ -1,6 +1,6 @@
 .resources__logo {
   height: 38px;
-  transition: opacity 0.2s ease;
+  transition: opacity .2s ease;
   width: 270px;
 }
 
